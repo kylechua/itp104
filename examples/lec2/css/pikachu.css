@@ -1,0 +1,69 @@
+body { 
+    background-color: lavender;
+    font-family:arial;
+    background-image: url("../images/greenpattern.jpg");
+}
+
+h1 {
+    color: blue;
+}
+
+p {
+    color: navy;
+    font-size: 20px;
+}
+
+span {
+    font-size: 48px;
+}
+
+.green-text {
+    color: green;
+}
+
+.thick-black-border {
+    border-color: black;
+    border-width: 8px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+#header {
+    text-align: center;
+}
+
+#summary {
+    text-align: center;
+    background-color: beige;
+    font-style: italic;
+}
+
+#facts {
+    /*
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    */
+
+    /*
+    border: black 1px solid;
+    */
+
+    border-bottom: 1px black solid;
+    margin-bottom: 50px;
+
+}
+
+#top3 {
+    border-bottom: 1px black solid;
+    margin-bottom: 50px;
+    height: 180px;
+}
+
+.medium-image {
+    width: 200px;
+}
+
+.float {
+    float: right;
+}

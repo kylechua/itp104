@@ -1,0 +1,55 @@
+#outercontainer {
+    background-color: gray;
+    width: inherit;
+        /* This is already assumed, but we could also hard code it (e.g. width: 800px) */
+}
+#header {
+    background-color: red;
+
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+
+    height: 100px;
+    line-height: 100px; 
+        /* If the line height and the div height are the same, it will vertically center your text to the div */
+}
+#headline {
+    background-color: green;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 2px solid gray;
+}
+#article {
+    background-color: white;
+    width: 70%;
+        /* 70% of container */
+    float: left;
+
+    padding-right: 10px;
+}
+.aside {
+    background-color: lavender;
+    width: 300px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+        /* Margin adds whitespace outside of the container */
+
+    padding: 10px;
+        /* Padding adds whitespace inside of the container */
+}
+#sidebar {
+    background-color: pink;
+    width: Calc(30% - 10px);
+        /* Subtract the width of the padding */
+    float: left;
+        /* Left as much as possible */
+}
+#footer {
+    background-color: orange;
+}
+.clear {
+    clear: both;
+        /* Clears all floats */
+}
