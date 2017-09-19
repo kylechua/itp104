@@ -1,0 +1,100 @@
+html {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+#header {
+    height: 100px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
+    font-size: 48px;
+    text-align: center;
+}
+
+#header>img {
+    vertical-align: middle;
+    height: 100%;
+    margin-right: 5px;
+}
+
+div.section {
+    width: Calc(50% - 44px);
+    height: 375px;
+    float: left;
+    padding: 10px;
+    padding-top: 15px;
+    margin: 10px;
+    background-color: black;
+    border-radius: 20px;
+    border: solid white 2px;
+}
+
+div.section > h2 {
+    text-align: center;
+    text-shadow: 2px 2px 2px black, 0 0 1em black, 0 0 0.2em black;
+    color:white;
+    padding: 0px;
+    padding-bottom: 12px;
+    margin: 0px;
+}
+
+div.review>p {
+    margin-bottom: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black, 0 0 1em black, 0 0 0.2em black;
+    text-align: justify;
+}
+
+div.review>p.author {
+    text-align: right;
+}
+
+img.poster {
+    height: 80%;
+    border: solid yellow 2px;
+    border-radius: 3px;
+    float: left;
+    margin-right: 10px;
+}
+
+div.info {
+    float: right;
+    text-align: right;
+    background-color: grey;
+    border: solid black 0px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.info>h4 {
+    margin: 0px;
+}
+
+div.rating>span.rating {
+    color: white;
+    text-shadow: 0 1px black;
+    font-size: 18px;
+}
+
+div.rating>span.ratingstub {
+    font-size: 8px;
+    color: black;
+}
+
+div.rating>img.star {
+    height: 16px;
+}
+
+div.rating>a {
+    color: blue;
+    font-size: 8px;
+}
