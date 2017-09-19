@@ -10,15 +10,22 @@ body {
     height: 100px;
     margin: 0px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 30px;
     color: white;
     font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
     font-size: 48px;
     text-align: center;
 }
 
+#header>span.caption {
+    padding-top: 10px;
+    font-size: 14px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 #header>img {
     vertical-align: middle;
+    margin-bottom: 10px;
     height: 100%;
     margin-right: 5px;
 }
