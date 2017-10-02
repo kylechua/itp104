@@ -1,0 +1,79 @@
+html {
+    font-family: "Trebuchet MS";
+}
+
+body {
+    background-color: #922E38;
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#outercontainer {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#calendar {
+    width: 910px;
+    padding: 5px;
+    margin: 0 auto;
+    border: solid black 0px;
+    color: #F7C64D;
+    
+}
+
+#banner {
+    margin: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* General class for a cell */
+.day {
+    float: left;
+    width: 120px;
+    color: #F7C64D;
+    background-color: #7C2730;
+    margin: 5px;
+    display: table;
+}
+
+/* Days of the week banner */
+#weekdays>.day {
+    height: 30px;
+}
+/* Days of the week names */
+#weekdays>.day>.name {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.week>.day {
+    height: 95px;
+}
+
+/* Date numbers (i.e. a number from 1-31) */
+.week>.day>.date {
+    display: table-cell;
+    padding: 8px;
+}
+
+span.game {
+    float: right;
+    font-size: 12px;
+}
+
+.inactive {
+    background-color: #562124;
+    color: #A07A2C;
+}
+
+img.teamlogo {
+    width: 50px;
+    float:right;
+}

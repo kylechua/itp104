@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+	<title>Photo Gallery</title>
+
+	<style>
+		/*div {
+			border: 1px solid red;
+		}*/
+		.dogimage {
+			width: 200px;
+			height: 200px;
+		}
+		body {
+			background-color: #EFEDED;
+		}
+		#outercontainer {
+			background-color: white;
+
+			/* Center entire container to middle of browser */
+			width: 696px;
+			/* 600(200px * 3) + (15px * 2)*(3) + (2px * 3) */
+
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.imgbox {
+			width: 200px;
+			float: left;
+			margin: 15px;
+			border: 1px solid black;
+		}
+		.clear {
+			clear: both;
+		}
+		#profile-pic {
+			width: 125px;
+			float: left;
+		}
+		#profile-bio {
+			width: 496px;
+			float: left;
+		}
+		#profile-pic img {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			padding: 10px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div id="outercontainer">
+		<div class="profile">
+			<div id="profile-pic">
+				<img class="dogimage" src="http://itpwebdev.com/wp-content/uploads/2017/09/dogimg01.jpg" />
+			</div>
+			<div id="profile-bio">
+				<h2>instadog</h2>
+				<p>Pics of cute dogs</p>
+			</div>
+			<div class="clear" />
+		</div>
+
+		<div class="imgbox">
+			<img class="dogimage" src="http://itpwebdev.com/wp-content/uploads/2017/09/dogimg01.jpg" />
+		</div>
+		<div class="imgbox">
+			<img class="dogimage" src="http://itpwebdev.com/wp-content/uploads/2017/09/dogimg02.jpg" />
+		</div>
+		<div class="imgbox">
+			<img class="dogimage" src="http://itpwebdev.com/wp-content/uploads/2017/09/dogimg03.jpg" />
+		</div>
+
+		<div class="clear" />
+
+		<div class="imgbox">
+			<img class="dogimage" src="http://itpwebdev.com/wp-content/uploads/2017/09/dogimg04.jpg" />
+		</div>
+		<div class="imgbox">
+			<img class="dogimage" src="http://itpwebdev.com/wp-content/uploads/2017/09/dogimg05.jpg" />
+		</div>
+		<div class="imgbox">
+			<img class="dogimage" src="http://itpwebdev.com/wp-content/uploads/2017/09/dogimg06.jpg" />
+		</div>
+
+		<div class="clear" />
+
+		<div class="imgbox">
+			<img class="dogimage" src="http://itpwebdev.com/wp-content/uploads/2017/09/dogimg07.jpg" />
+		</div>
+		<div class="imgbox">
+			<img class="dogimage" src="http://itpwebdev.com/wp-content/uploads/2017/09/dogimg08.jpg" />
+		</div>
+		<div class="imgbox">
+			<img class="dogimage" src="http://itpwebdev.com/wp-content/uploads/2017/09/dogimg09.jpg" />
+		</div>
+
+		<div class="clear" />
+
+	</div>
+
+</body>
+</html>
