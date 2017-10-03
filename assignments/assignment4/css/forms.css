@@ -35,6 +35,13 @@
     width:Calc(100%/4);
 }
 
+/* elements with multiple columns */
+.col { float: left; }
+.col:first-child:nth-last-child(2),
+.col:first-child:nth-last-child(2) ~ .col {
+    width:Calc(100%/2);
+}
+
 /* container for form fields */
 .form-element>span {
     display: block;

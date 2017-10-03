@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<style>
+		.form-row {
+			margin-bottom: 10px;
+		}
+		#outercontainer {
+			/*background-color: #443217;*/
+			background-color: rgba(75,42,3,0.8);
+			color: #ddd;
+			font-family: "Arial";
+			width: 600px;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 20px;
+			/*opacity: 0.5;*/
+			margin-top: 80px;
+		}
+		h2 {
+			text-align: center;
+		}
+		body {
+			background-image: url("https://static.pexels.com/photos/127828/pexels-photo-127828-large.jpeg");
+			background-repeat: no-repeat;
+			background-size: cover;
+			/*background-position: left bottom;*/
+		}
+		label {
+			width: 220px;
+			background-color: red;
+			float: left;
+			text-align: right;
+			margin-right: 10px;
+		}
+		.radio-label {
+			/*overwrote properties in the label rule aboe*/
+			float: none;
+			width: auto; /* this overrides width: 220px from label */
+		}
+		.submit-row {
+			text-align: center;
+		}
+		button {
+			width: 100px;
+			height: 40px;
+			border: 0;
+			border-radius: 6px;
+			background: linear-gradient(#49708f, #293f50);
+			color: white;
+			font-size: 14px;
+		}
+		button:hover {
+			background: #293f50;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div id="outercontainer">
+		<h2>SIGN UP</h2>
+
+		<form>
+			<div class="form-row">
+				<label for="username">Name:</label> 
+				<input type="text" id="username"/>
+			</div>
+
+			<div class="form-row">
+				<label for="password">Password:</label>
+				<input type="password" id="password"/>
+			</div>
+
+			<div class="form-row">
+				<label>Gender:</label>
+
+				<input type="radio" name="gender" id="male"/>
+				<label class="radio-label" for="male">Male </label>
+
+				<input type="radio" name="gender" id="female"/>
+				<label for="female" class="radio-label">Female</label>
+			</div>
+
+			<div class="form-row">
+				<label>Hobbies:</label>
+
+				<input type="checkbox" id="running"/>
+				<label for="running" class="radio-label">Running</label>
+
+				<input type="checkbox" id="hiking"/>
+				<label for="hiking" class="radio-label">Hiking</label>
+
+				<input type="checkbox" id="rowing"/>
+				<label for="rowing" class="radio-label">Rowing</label>
+			</div>
+
+
+			<div class="form-row">
+				<label for="year">School Year:</label>
+				<select id="year">
+					<option></option>
+					<option>Freshman</option>
+					<option>Sophomore</option>
+					<option>Junior</option>
+					<option>Senior</option>
+				</select>
+			</div>
+
+			<div class="form-row">
+				<label for="comments" style="padding-top: 30px;">Comments</label>
+				<textarea id="comments" style="width: 300px; height: 100px;"></textarea>
+			</div>
+
+			<div class="form-row submit-row">
+				<!-- There are two ways to create a submit button -->
+				<input type="submit" value="Send"/>
+				<button>Submit</button>
+			</div>
+
+			<br/></br/><br/></br/><br/></br/>
+
+		</form>
+	</div>
+</body>
+</html>
+
+
